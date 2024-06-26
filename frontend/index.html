@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Dinámica</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header bg-primary text-white text-center">Artículos</div>
+        <div class="card-body">
+            <table class="table table-bordered table-striped" id="tablaDinamica">
+                <thead class="thead-light">
+                    <tr id="encabezadosTabla">
+                        <th>Código</th>
+                        <th>articulo</th>
+                        <th>marca</th>
+                        <th>agrupacion</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <button id="agregarFila" class="btn btn-primary">Agregar Fila</button>
+            <button id="agregarColumna" class="btn btn-secondary">Agregar Columna</button>
+            <button id="guardarDatos" class="btn btn-success">Guardar</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
